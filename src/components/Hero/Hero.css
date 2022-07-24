@@ -1,0 +1,40 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.left-h{
+    padding:1.5rem 2rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.right-h{
+    flex: 1;
+}
+.the-best-add{
+    margin-top: 4rem;
+    background: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 1.3rem .7rem;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the-best-add span{
+    z-index: 2;
+    letter-spacing: .2rem;
+}
+.the-best-add div{
+    position : absolute;
+    background: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
